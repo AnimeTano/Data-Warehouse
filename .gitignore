@@ -1,0 +1,31 @@
+#Сборка
+build/
+cmake-build-*/
+out/
+
+#Исполняемый файл
+Manager.exe
+
+#Объектные файлы
+*.o
+*.obj
+
+#Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt
+
+#Файлы IDE
+.vscode/
+.idea/
+*.code-workspace
+
+#Временные файлы
+*.tmp
+*.swp
+*~
+
+#внутрення информация
+config.txt

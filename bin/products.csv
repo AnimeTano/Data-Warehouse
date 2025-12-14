@@ -1,0 +1,36 @@
+product_id,product_name,category,price
+101,Lenovo Laptop,Electronics,149.99
+102,Samsung Smartphone,Electronics,89.99
+103,Sony Headphones,Accessories,49.99
+104,Logitech Keyboard,Accessories,89.99
+105,Razer Mouse,Accessories,59.99
+106,Apple Tablet,Electronics,79.99
+107,Dell Monitor,Electronics,199.99
+108,HP Printer,Electronics,129.99
+109,USB-C Cable,Accessories,19.99
+110,Wireless Charger,Accessories,34.99
+111,External SSD,Electronics,89.99
+112,Webcam,Accessories,45.50
+113,Gaming Chair,Furniture,299.99
+114,Desk Lamp,Home Goods,24.99
+115,Backpack,Bags,59.99
+116,Smart Watch,Wearables,199.99
+117,Bluetooth Speaker,Audio,79.99
+118,Graphics Card,Computer Parts,499.99
+119,CPU,Computer Parts,399.99
+120,16GB RAM,Computer Parts,89.99
+121,Motherboard,Computer Parts,179.99
+122,Power Supply,Computer Parts,129.99
+123,Computer Case,Computer Parts,89.99
+124,Monitor Stand,Accessories,49.99
+125,Laptop Stand,Accessories,39.99
+126,Silver Sword,Equipment,75.99
+127,Steal Sword,Equipment,99.99
+128,Microsoft Windows 11,Operating Systems,58.96
+129,Grokking Book,Books,15.99
+130,Recepts for meef,Books,14.99
+131,Blade Mail,Equipment,2800.0
+132,Refresher Orb,Equipment,5600.0
+133,Dispatch,Games,29.99
+134,Clair Obscur:Expedition 33,Games,49.99
+135,Death Stranding 2,Games,69.99
