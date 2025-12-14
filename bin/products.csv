@@ -9,7 +9,7 @@ product_id,product_name,category,price
 108,HP Printer,Electronics,129.99
 109,USB-C Cable,Accessories,19.99
 110,Wireless Charger,Accessories,34.99
-111,External SSD,Electronics,89.99
+111,External SSD,Elecstronics,89.99
 112,Webcam,Accessories,45.50
 113,Gaming Chair,Furniture,299.99
 114,Desk Lamp,Home Goods,24.99
@@ -34,3 +34,33 @@ product_id,product_name,category,price
 133,Dispatch,Games,29.99
 134,Clair Obscur:Expedition 33,Games,49.99
 135,Death Stranding 2,Games,69.99
+136,MacBook Pro Laptop,Electronics,1999.99
+137,iPhone 15 Pro,Electronics,999.99
+138,Samsung Galaxy Tab,Electronics,499.99
+139,Sony Headphones,Electronics,299.99
+140,Canon DSLR Camera,Electronics,899.99
+141,HP OfficeJet Printer,Electronics,249.99
+142,Amazon Echo Dot,Electronics,49.99
+143,Logitech Gaming Mouse,Electronics,79.99
+144,Blue Cotton T-Shirt,Clothing,19.99
+145,Leather Jacket,Clothing,199.99
+146,Denim Jeans,Clothing,59.99
+147,Running Shoes,Clothing,89.99
+148,Winter Coat,Clothing,149.99
+149,Designer Dress,Clothing,299.99
+150,Baseball Cap,Clothing,24.99
+151,The Great Gatsby,Books,12.99
+152,Python Programming Guide,Books,39.99
+153,World Atlas,Books,49.99
+154,Cooking Recipe Book,Books,19.99
+155,Children's Storybook,Books,9.99
+156,IKEA Desk,Furniture,149.99
+157,Office Chair,Furniture,199.99
+158,Sofa Set,Furniture,899.99
+159,Bookshelf,Furniture,129.99
+160,Bed Frame,Furniture,299.99
+161,Multivitamins,Health & Beauty,29.99
+162,Shampoo,Health & Beauty,14.99
+163,Perfume,Health & Beauty,79.99
+164,Sunscreen Lotion,Health & Beauty,19.99
+165,Toothpaste,Health & Beauty,5.99
