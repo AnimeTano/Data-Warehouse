@@ -6,7 +6,22 @@
 #include <ctime>
 
 
-Parser::Parser(const std::string& dir) : directory(dir) { directory = "bin/"; }
+Parser::Parser(const std::string& dir) : directory(dir) {
+    if (!directory.empty() && directory.back() != '/') {
+        directory += '/';
+    }
+    std::cout << "Search in directory: " << directory << "\n";
+
+    std::vector<std::string> files = {"sales.csv", "products.csv", "customers.csv"};
+
+    for (const auto& file : files) {
+        std::ifstream f(directory + file);
+        if (f.is_open()){
+            std::cout << "Dir: " << directory + file << "\n";
+            f.close();
+        } else std::cerr << "Error with find directory: " << directory + file << "\n";
+    }
+}
 
 
 std::vector<std::string> Parser::splitCSV(const std::string& line, char del){
@@ -49,7 +64,7 @@ std::string Parser::convertToDate(const std::string& dateStr) {
 std::vector<Sale> Parser::parseSales() {
     std::vector<Sale> sales;
     std::string line;
-    std::string filename = "../bin/sales.csv";
+    std::string filename = directory + "sales.csv";
     
     std::ifstream file(filename);
     if (file.fail()){
@@ -86,7 +101,7 @@ std::vector<Sale> Parser::parseSales() {
 std::vector<Product> Parser::parseProducts() {
     std::vector<Product> products;
     std::string line;
-    std::string filename = ".,/bin/products.csv";
+    std::string filename = directory + "products.csv";
     
     std::ifstream file(filename);
     if (file.fail()){
@@ -120,7 +135,7 @@ std::vector<Product> Parser::parseProducts() {
 std::vector<Customer> Parser::parseCustomers() {
     std::vector<Customer> customers;
     std::string line;
-    std::string filename = "../bin/customers.csv";
+    std::string filename = directory + "customers.csv";
     
     std::ifstream file(filename);
     if (file.fail()){
